@@ -1,0 +1,7 @@
+{
+  "db": {
+    "url": "DB_URL",
+    "name": "DB_NAME",
+    "debug": "DB_DEBUG"
+  }
+}
