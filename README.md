@@ -20,9 +20,9 @@ npm install <package-name>
 This package uses [config](https://www.npmjs.com/package/config) 
 to load connection details. As such the following options are used:
 
-* db.url - contains the connection string for the database
-* db.name - contains the database name
-* db.debug - specifies the [debug](https://www.npmjs.com/package/debug) channel that should be used
+* **db.url** - contains the connection string for the database
+* **db.name** - contains the database name
+* **db.debug** - specifies the [debug](https://www.npmjs.com/package/debug) channel that should be used
 
 Shown below are some example config files:
 
@@ -80,6 +80,6 @@ const id = newId();
 Parse an ObjectId from a string:
 
 ```js
-const idString = '';
+const idString = '61608aa55318d3e1f8595804';
 const id = newId(idString);
 ```
