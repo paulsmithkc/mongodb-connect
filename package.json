@@ -1,6 +1,6 @@
 {
   "name": "mongodb-connect",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Utility functions to simplify connecting to a MongoDB database.",
   "main": "index.js",
   "keywords": [
