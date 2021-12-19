@@ -1,8 +1,12 @@
 {
-  "name": "mongodb-connect",
-  "version": "1.0.0",
+  "name": "@merlin4/mongodb-connect",
+  "version": "0.0.1",
   "description": "Utility functions to simplify connecting to a MongoDB database.",
+  "private": false,
   "main": "index.js",
+  "scripts": {
+    "example": "npx nodemon ./example.js"
+  },
   "keywords": [
     "mongodb",
     "connect",

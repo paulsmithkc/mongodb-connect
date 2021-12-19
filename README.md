@@ -12,7 +12,7 @@ npm install config debug mongodb
 Install this package:
 
 ```bash
-npm install <package-name>
+npm install @merlin4/mongodb-connect
 ```
 
 ## Configuration
@@ -24,7 +24,7 @@ to load connection details. As such the following options are used:
 * **db.name** - contains the database name
 * **db.debug** - specifies the [debug](https://www.npmjs.com/package/debug) channel that should be used
 
-Shown below are some example config files:
+Shown below are some example config files.
 
 **config/default.json**
 ```json
