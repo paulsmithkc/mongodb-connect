@@ -1,5 +1,6 @@
 .vscode
-node_modules
-config
 .env
+node_modules
+examples
+config
 example.js
