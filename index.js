@@ -8,13 +8,13 @@ const DB_DEBUG = config.get('db.debug');
 
 // check config vars
 if (!DB_URL) {
-  throw new Error('db.url not configured.')
+  throw new Error('db.url not configured.');
 }
 if (!DB_NAME) {
-  throw new Error('db.name not configured.')
+  throw new Error('db.name not configured.');
 }
 if (!DB_DEBUG) {
-  throw new Error('db.debug not configured.')
+  throw new Error('db.debug not configured.');
 }
 
 // global vars
